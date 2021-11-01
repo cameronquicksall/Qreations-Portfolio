@@ -3,59 +3,72 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root {
+    --primary-color: #000;
+    --sedondary-color: #967a00;
+    --tertiary-color: rgb(24, 117, 113);
+}
 body {
-    background-color: silver;
+    background-color:var(--tertiary-color);
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 header {
-    padding : 20px 25px;
-    background-color: silver;
+    justify-content: space-between;
+    padding : 15px 5px 10px 35px;
+    background-image: url(/images/bg.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+    z-index: 9999;
 }
 header h1 {
     font-weight: bold;
     font-size: large;
     margin: 0;
     display: inline;
-    color: #000;
+    color: var(--primary-color);
 }
 header a {
     text-decoration: none;
-    color: #000;
+    color:var(--primary-color);
     font-size: xx-large;
 }
 header nav {
-    float: right;
     margin: 7px 0;
 }
-header nav ul li {
-    display: inline;
+header nav ul {
+    display: flex;
+    flex: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
+    font-size: 1.55vw;
 }
 footer {
+    background: var(--primary-color);
     width: 100%;
-    padding: 25px 25px;;
-    background-color: skyblue;
-    font-size: larger;
+    padding: 100px;;
 }
-
+footer h2 {
+    display: inline;
+    color: var(--sedondary-color);
+    font-size: 30px;
+    margin: 0;
+}
 footer div {
-    float: center;
+    float: right;
     line-height: 1.5;
-    text-align: center;
-    font-style: oblique;
-    color: darkcyan;
-    flex-wrap: wrap;
-    width: 100%;
+    text-align: right;
 }
 section {
     padding: 60px;
 }
 h3 {
     display: inline;
-    border: 1px  #000;
+    border: 1px  var(--primary-color);
 }
 .box-row1 img {
     background-position: center;
@@ -63,8 +76,11 @@ h3 {
 }
 
 .footer {
-    width: 300px;
-    color: #000;
+    display: flex;
+    width: fit-content;
+    color: var(--primary-color);
+    position: absolute;
+    
     
 }
 
@@ -73,7 +89,7 @@ h3 {
     margin: auto;
     text-align: center;
     font-style: oblique;
-    color: #000;
+    color: var(--primary-color);
 }
 .rounded img {
     height: 320px;
@@ -82,36 +98,41 @@ h3 {
     border-radius: 100%;
 }
 .box-row1 img {
-    height: 250px;
     width: 100%;
     height: fit-content;
 }
 .box-row1 {
     display: flex;
     flex-wrap: wrap;
-    border: 3px #000 solid;
+    border: 3px var(--primary-color) solid;
     flex: 1 1 33%;
 }
 
+.box-2 {
+    background-image: url(/images/LED.jpeg);
+    height: 250px;
+}
+
+.box-3 img {
+    height: fit-content;
+
+}
+.box-5 {
+    background-image: url(/images/puzzles.jpeg);
+    height: 180px;
+
+}
 .box-column {
+
     display: flex;
     flex-wrap: wrap;
-    border: 3px #000 solid;
+    border: 3px var(--primary-color) solid;
 }
 
 .box-column > * {
     flex-basis: 100%;
-    border: 1px solid #000;
+    border: 1px solid var(--primary-color);
     flex: 1 1 33%;
-    padding: 25px;
+    flex-wrap: wrap-reverse;
 }
 
-
-
-.mylinks {
-    float: left;
-    position: relative;
-}
-.more-info {
-    position: center;
-}
