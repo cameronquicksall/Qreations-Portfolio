@@ -64,11 +64,35 @@ footer div {
     text-align: right;
 }
 section {
-    padding: 60px;
+    padding: 80px;
 }
 h3 {
     display: inline;
     border: 1px  var(--primary-color);
+}
+.hero {
+    background-image: url(/images/download.jpeg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
+    position: relative;
+}
+.hero h2 {
+    font-size: 42px;
+    margin: 0;
+    display: flex;
+    padding: 4px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 50px;
+    right: 35px;
+    color: white;
+    background-color: var(--tertiary-color);
+    text-align: center;
 }
 .box-row1 img {
     background-position: center;
@@ -80,8 +104,6 @@ h3 {
     width: fit-content;
     color: var(--primary-color);
     position: absolute;
-    
-    
 }
 
 .rounded {
@@ -110,6 +132,15 @@ h3 {
 
 .box-2 {
     background-image: url(/images/LED.jpeg);
+    height: 250px;
+    display: grid;
+}
+.box-3 {
+    background-image: url(/images/SURF.jpeg);
+    height: 250px;
+}
+.box-4 {
+    background-image: url(/images/calculator.jpeg);
     height: 250px;
 }
 
