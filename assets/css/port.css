@@ -15,7 +15,7 @@ body {
 header {
     justify-content: space-between;
     padding : 15px 5px 10px 35px;
-    background-image: url(/images/mtn.jpeg);
+    background-image: url(../images/mtn.jpeg);
     background-size: cover;
     background-attachment: fixed;
     background-position: 80%;
@@ -72,7 +72,7 @@ h3 {
     border: 1px  var(--primary-color);
 }
 .hero {
-    background-image: url(/images/mtn.jpeg);
+    background-image: url(../images/mtn.jpeg);
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -132,16 +132,16 @@ h3 {
 }
 
 .box-2 {
-    background-image: url(/images/LED.jpeg);
+    background-image: url(../images/LED.jpeg);
     height: 250px;
     display: grid;
 }
 .box-3 {
-    background-image: url(/images/SURF.jpeg);
+    background-image: url(../images/SURF.jpeg);
     height: 250px;
 }
 .box-4 {
-    background-image: url(/images/calculator.jpeg);
+    background-image: url(../images/calculator.jpeg);
     height: 250px;
 }
 
@@ -150,7 +150,7 @@ h3 {
 
 }
 .box-5 {
-    background-image: url(/images/puzzles.jpeg);
+    background-image: url(../images/puzzles.jpeg);
     height: 180px;
 
 }
