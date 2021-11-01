@@ -20,6 +20,7 @@ header {
     background-attachment: fixed;
     background-position: 80%;
     z-index: 9999;
+    background-color: var(--tertiary-color);
 }
 header h1 {
     font-weight: bold;
@@ -121,7 +122,7 @@ h3 {
 }
 .box-row1 img {
     width: 100%;
-    height: fit-content;
+    height: 100%;
 }
 .box-row1 {
     display: flex;
