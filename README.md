@@ -7,7 +7,7 @@
 ## Built With 
 
 * HTML
-*CSS
+* CSS
 
 
 ## 💫 Quicksall Qreations 2021 💫
