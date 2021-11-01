@@ -15,7 +15,7 @@ body {
 header {
     justify-content: space-between;
     padding : 15px 5px 10px 35px;
-    background-image: url(/images/bg.jpeg);
+    background-image: url(/images/mtn.jpeg);
     background-size: cover;
     background-attachment: fixed;
     background-position: 80%;
@@ -71,7 +71,7 @@ h3 {
     border: 1px  var(--primary-color);
 }
 .hero {
-    background-image: url(/images/download.jpeg);
+    background-image: url(/images/mtn.jpeg);
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -91,7 +91,7 @@ h3 {
     bottom: 50px;
     right: 35px;
     color: white;
-    background-color: var(--tertiary-color);
+    background-color: rgb(13, 13, 80);
     text-align: center;
 }
 .box-row1 img {
