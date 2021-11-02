@@ -51,19 +51,13 @@ header nav ul li a {
 footer {
     background: var(--primary-color);
     width: 100%;
-    padding: 100px;;
+    padding: 40px 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: var(--tertiary-color);
 }
-footer h2 {
-    display: inline;
-    color: var(--sedondary-color);
-    font-size: 30px;
-    margin: 0;
-}
-footer div {
-    float: right;
-    line-height: 1.5;
-    text-align: right;
-}
+
 section {
     padding: 80px;
 }
@@ -100,12 +94,6 @@ h3 {
     display: flexbox;
 }
 
-.footer {
-    display: flex;
-    width: fit-content;
-    color: var(--primary-color);
-    position: absolute;
-}
 
 .rounded {
     width: 300px;
