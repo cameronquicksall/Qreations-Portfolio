@@ -9,7 +9,7 @@
     --tertiary-color: rgb(24, 117, 113);
 }
 body {
-    background-color:var(--tertiary-color);
+    background-color: whitesmoke;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 header {
@@ -156,3 +156,8 @@ h3 {
     flex-wrap: wrap-reverse;
 }
 
+.footer {
+    border: 3px solid var(--primary-color);
+    background-color: var(--primary-color);
+    display: flex;
+}
